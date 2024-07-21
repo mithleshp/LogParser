@@ -1,10 +1,14 @@
-Sample Module Repository
+Springboard Mini Project
 ========================
 
-This simple project is an example repo for Python projects.
+This simple project is an example for analysizing airflow logs
 
 `Learn more <http://www.kennethreitz.org/essays/repository-structure-and-python>`_.
 
 ---------------
 
-If you want to learn more about ``setup.py`` files, check out `this repository <https://github.com/kennethreitz/setup.py>`_.
+log analyzer should show the following information:
+- The total count of error messages
+- A detailed message regarding each error
+
+The code parses for every line and looks for the word error.
